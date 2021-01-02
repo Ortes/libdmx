@@ -1,0 +1,7 @@
+menu "DMX Configuration"
+    config DMX_TX_GPIO
+        int "DMX TX GPIO"
+        default 17
+        help
+            Set the GPIO number used for transmitting the DMX signal.
+endmenu
